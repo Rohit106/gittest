@@ -20,9 +20,9 @@ find virtual-* -mtime +1  -exec cp -r -a -p {} $TODIR$foldername \;
 #echo $TODIR$foldername
 #cd $TODIR ;zip -r $foldername.zip $foldername ; cd
 
-#/usr/bin/rsync -av -e "ssh -p 22420" $TODIR$foldername.zip root@10.0.1.231:/usr/local/jaxtrsim-log-bkup/rtbmslog/. >> /tmp/backup.log
+#/usr/bin/rsync -av -e "ssh -p 22420" $TODIR$foldername.zip root@X.X.X.X:/usr/local/jaxtrsim-log-bkup/rtbmslog/. >> /tmp/backup.log
 
 #if ( $TODIR$foldername == $foldername) 
-#  echo "Backup" | mail -s "Backup rtbms old +1day log from 10-0-1-33 copied to backup server 10.0.1.231" rohit.k@sabsebolo.com < /tmp/backup.log
+#  echo "Backup" | mail -s "Backup rtbms old +1day log from X.X.X.X copied to backup server X.X.X.X" xyz@gmail.com < /tmp/backup.log
 
 
